@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: dev
+
+mybatis:
+  #配置xml文件所在路径
+  mapper-locations: classpath*:com/jianke/jiankedataaccess/dao/*.xml
+  #配置映射类所在包
+  type-aliases-package: com.jianke.jiankedataaccess.entity

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/jianke-data-access/jianke-data-access.iml" filepath="$PROJECT_DIR$/jianke-data-access/jianke-data-access.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jianke-service/jianke-service.iml" filepath="$PROJECT_DIR$/jianke-service/jianke-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jianke-web/jianke-web.iml" filepath="$PROJECT_DIR$/jianke-web/jianke-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jiankeDemo.iml" filepath="$PROJECT_DIR$/jiankeDemo.iml" />
+    </modules>
+  </component>
+</project>

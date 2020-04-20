@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/jiankeDataBase?useUnicode=true&characterEncoding=UTF-8
+    username: root
+   # password: pydt1pk_e3kO
+    password: yanglei
+
+    #  即从mysql5.7版本之后，默认采用了caching_sha2_password验证方式。
+   # 解决办法：
+    #在linux服务器中，开启mysql，并进入连接的数据库执行如下语句，表示采用原来的身份验证机制。
+   # mysql>ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'root账户密码';
+

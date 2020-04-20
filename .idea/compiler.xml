@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jianke-data-access" />
+        <module name="jianke-service" />
+        <module name="jianke-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jianke-data-access" target="1.8" />
+      <module name="jianke-service" target="1.8" />
+      <module name="jianke-web" target="1.8" />
+      <module name="jiankeDemo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="jianke-data-access" options="-parameters" />
+      <module name="jianke-service" options="-parameters" />
+      <module name="jianke-web" options="-parameters" />
+      <module name="jiankeDemo" options="-parameters" />
+    </option>
+  </component>
+</project>
